@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Bootstrap</title>
@@ -55,14 +56,14 @@
 
         <!-- SECONDA SEZIONE -->
         <section>
-            <div>
+            <div class="container">
                 <h2 class="p-5">PORTFOLIO</h2>
                 <div class="d-flex justify-content-center">
                     <div class="border-bottom border-3 w-25 mb-3 border-dark"></div>
                     <div class="fs-2 px-2">&#9733;</div>
                     <div class="border-bottom border-3 w-25 mb-3 border-dark"></div>
                 </div>
-                <div class="container p-3">
+                <div class="p-3">
                     <div class="row gy-3">
                         <div class= "col-md-6 col-lg-4">
                             <img class="rounded-3 w-100" src="./assets/img/cabin.png"  alt="immagine">
@@ -87,6 +88,32 @@
                         
                 </div>
             </div>
+        </section>
+
+        <!-- TERZA SEZIONE  -->
+        <section class="bg-lightgreen text-white">
+            <div class="container-sm p-5">
+                <h2>ABOUT</h2>
+                <div class="d-flex justify-content-center">
+                    <div class="border-bottom border-3 w-25 mb-3"></div>
+                    <div class="fs-2 px-2">&#9733;</div>
+                    <div class="border-bottom border-3 w-25 mb-3"></div>
+                </div>
+                <div class="row gy-3">
+                    <div class= "col-md-6">
+                        <p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis provident nisi voluptate quas quos totam aut incidunt fugiat eveniet aspernatur.</p>
+                        
+                    </div>
+                    <div class= "col-md-6">
+                        <p class="text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis provident nisi voluptate quas quos totam aut incidunt fugiat eveniet aspernatur.</p>
+                    
+                    </div>              
+                </div>
+                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
+             
+            </div>
+                     
+
         </section>
     </main>
     <footer></footer>
