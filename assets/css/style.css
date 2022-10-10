@@ -11,3 +11,11 @@
 .bg-lightgreen{
     background-color: rgba(26, 188, 156, 1);
 }
+
+/* QUARTA SEZIONE  */
+.contactme > span{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    width: 70%;
+}
