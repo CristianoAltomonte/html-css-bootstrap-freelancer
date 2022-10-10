@@ -19,3 +19,8 @@
     border-bottom: 1px solid lightgray;
     width: 70%;
 }
+
+/* FOOTER */
+.bg-footer{
+    background-color: rgba(58, 84, 109, 1);
+}
