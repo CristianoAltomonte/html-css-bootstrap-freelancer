@@ -16,3 +16,19 @@
 .bg-footer{
     background-color: rgba(58, 84, 109, 1);
 }
+
+/* FORM */
+
+.form-control{
+    border: 0px;
+}
+
+footer .circle{
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer; 
+    width: 45px;
+    height: 45px; 
+    text-align: center;
+    line-height: 45px;
+}
